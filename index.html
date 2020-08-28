@@ -9,6 +9,10 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
 <p id="demo"></p>
-
+<p id="demo2"></p>
+<script type="text/javascript">
+  import {proc} from './engine/proc.js'
+  document.getElementById('demo2').innerHTML = proc.getValue(2);
+</script>
 </body>
 </html> 
