@@ -1,5 +1,5 @@
-export class proc {
-  proc.getValue = function(n) {
-    return n*2;
-  }
+var proc = {}
+
+proc.getValue = function(n) {
+  return n*2;
 }
