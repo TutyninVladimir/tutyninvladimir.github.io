@@ -6,13 +6,13 @@
 
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
+<button type="button"
+onclick="document.getElementById('demo2').innerHTML = proc.getValue(2)">
 Click me to display Date and Time.</button>
 
 <p id="demo"></p>
 <p id="demo2"></p>
-<script type="text/javascript">
-  import {proc} from './engine/proc.js'
-  document.getElementById('demo2').innerHTML = proc.getValue(2);
-</script>
+  
+<script type="text/javascript" src="./engine/proc.js"></script>
 </body>
 </html> 
